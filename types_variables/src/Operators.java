@@ -1,30 +1,30 @@
 public class Operators {
     public static void main(String[] args) {
-        //classe Operadores.java
-            String fullName = "LINGUAGEM" + "JAVA";
+        // Class Operators.java
+            String fullName = "Language" + " Java";
             System.out.println(fullName);
 
-        //qual o resultado das expressoes abaixo?
-        String concatenacao ="?"; 
+        // What is the result of the expressions below?
+        String concatenation ="?"; 
 
-        concatenacao = 1+1+1+"1";
+        concatenation = 1+1+1+"1";
 
-        System.out.println(concatenacao);
+        System.out.println(concatenation);
 
-        concatenacao = 1+"1"+1+1;
+        concatenation = 1+"1"+1+1;
 
-        System.out.println(concatenacao);
+        System.out.println(concatenation);
 
-        concatenacao = 1+"1"+1+"1";
+        concatenation = 1+"1"+1+"1";
 
-        System.out.println(concatenacao);
+        System.out.println(concatenation);
 
-        concatenacao = "1"+1+1+1;
+        concatenation = "1"+1+1+1;
 
-        System.out.println(concatenacao);
+        System.out.println(concatenation);
 
-        concatenacao = "1"+(1+1+1);
+        concatenation = "1"+(1+1+1);
 
-        System.out.println(concatenacao);
+        System.out.println(concatenation);
     }
 }

@@ -1,7 +1,7 @@
 public class VariableTypes {
     public static void main(String[] args) throws Exception {
-        //Primitive Types
-        //Study the String class that represents text in the application
+        // Primitive Types
+        // Study the String class that represents text in the application
 
         String myName = "Elton Santos";
 
@@ -9,7 +9,7 @@ public class VariableTypes {
 
         short shortNumber = 1;
         int normalNumber = shortNumber;
-        short shortNumber2 = (short)normalNumber;
+        short shortNumber2 = (short) normalNumber;
 
         int number = 5;
 

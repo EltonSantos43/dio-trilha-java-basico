@@ -3,20 +3,20 @@ public class TernaryOperators {
         // classe Operadores.java
         int a, b;
 
-        a = 5;
+        a = 6;
         b = 6;
-
-        /* EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+        
+        String resultado = "";
+        // EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
         if(a==b)
-        resultado = "verdadeiro";
+            resultado = "verdadeiro";
         else
-        resultado = "falso";
-        */
+            resultado = "falso";
+        
 
         //MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
-        String resultado = (a==b) ? "verdadeiro" : "false";
+        // String resultado = (a==b) ? "verdadeiro" : "false";
 
         System.out.println(resultado);
-    }
-    
+    }    
 }
